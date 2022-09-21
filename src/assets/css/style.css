@@ -1,0 +1,286 @@
+#container {
+  width: 100%;
+  height: 100%;
+}
+
+header {
+  height: 50rem;
+  background-color: #d7dcff;
+}
+
+nav {
+  height: 2.5rem;
+  line-height: 2.5rem;
+  background-color: #a0aaec;
+  display: flex;
+}
+
+.nav-left,
+.nav-right {
+  flex: 1;
+  text-align: center;
+}
+
+.nav-left {
+  line-height: 2.5rem;
+  margin: 0 auto;
+}
+
+.nav-left img {
+  height: 1.875rem;
+  vertical-align: middle;
+  margin-left: 1rem;
+}
+
+.nav-right {
+  width: 4.375rem;
+  height: 1.75rem;
+}
+
+.nav-right button {
+  border: none;
+  display: inline-block;
+  color: #fff;
+  width: 4.375rem;
+  height: 1.75rem;
+  font-size: 0.625rem;
+  margin-top: 6px;
+  background-color: #ff95dc;
+  padding: 0.5rem 0.375rem;
+  border-radius: 0.5rem;
+}
+
+.info-img {
+  width: 37.5rem;
+  height: 25rem;
+  /* line-height: 25rem; */
+  margin: 5.625rem auto;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.img5 {
+  margin: 0.625rem auto;
+  width: 31.25rem;
+  height: 7.5rem;
+}
+
+.img6 {
+  width: 37.5rem;
+  height: 25rem;
+}
+
+.bth2 {
+  position: relative;
+}
+
+.bth2 div {
+  background-color: #fff;
+  position: absolute;
+  top: 21.25rem;
+  left: 1.25rem;
+  width: 7.5rem;
+  height: 2.125rem;
+  z-index: 2;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.125rem 0.75rem 0 rgba(0, 0, 0, 0.1)
+}
+
+.bth2-item {
+  border: 0.0625rem solid #a481e8;
+
+  width: 7.5rem;
+  height: 2.125rem;
+  padding-left: 0.875rem;
+  color: #a481e8;
+  font: 600 0.75rem 等线;
+  border-radius: 0.5rem;
+  background-color: #fff;
+  /* background: url(../assets/img/组31.png) no-repeat; */
+  background: url(../img/组31.png) no-repeat;
+  background-size: 1.25rem 1.25rem;
+  background-position: 0.625rem 0.375rem;
+  z-index: 1;
+}
+
+footer {
+  width: 100%;
+  height: 100%;
+  /* background: url(../assets/img/矩形\ 8.png); */
+  background: url(../img/矩形\ 8.png);
+
+}
+
+.content {
+  width: 70%;
+  margin: 0 auto;
+  padding-top: 12.5rem;
+  display: flex;
+  /* display: flex; */
+}
+
+.content-left,
+.content-right {
+  flex: 1;
+}
+
+.item-text {
+  width: 80%;
+  color: #fff;
+  font: 1.25rem 等线;
+}
+
+.item-text {
+  line-height: 1.5;
+  /* margin-left: 6.25rem; */
+}
+
+.item-text p {
+  width: 40 0rem;
+}
+
+.content div {
+  width: 28.125rem;
+}
+
+.content-right {}
+
+.content-right-img {
+  width: 100%;
+  height: 28.125rem;
+  position: relative;
+  left: 5rem;
+  top: -6.25rem;
+}
+
+.content-right img {
+  /* width: 8.75rem; */
+}
+
+.item-bth {
+  background-color: #b9afff;
+  border: 0;
+  border-radius: 0.5rem;
+  padding: 0.625rem;
+  color: #fff;
+  margin-top: 0.625rem;
+}
+
+.img7 {
+  width: 33.75rem;
+  height: 8.75rem;
+  margin: 2.5rem 1.25rem;
+}
+
+.img8 {
+  width: 47.5rem;
+  margin-left: -7.5rem;
+}
+
+.img9 {
+  width: 8.75rem;
+  position: absolute;
+  left: -5rem;
+  top: 18.75rem;
+}
+
+.img10 {
+  width: 25rem;
+  position: absolute;
+  left: 7.5rem;
+  top: -1.625rem;
+}
+
+.img11 {
+  width: 18.75rem;
+  position: absolute;
+  left: 6.25rem;
+  top: 17.5rem;
+  z-index: 1;
+}
+
+.img12 {
+  width: 16.25rem;
+  margin-bottom: 1.875rem;
+}
+
+.text-xy {
+  margin-top: -5rem;
+  padding-left: 6.25rem;
+}
+
+.text-xy p {
+  width: 31.25rem;
+}
+
+.user {
+  width: 70%;
+  margin: auto auto;
+  margin-top: 5rem;
+  text-align: center;
+}
+
+.user-title {
+  color: #caccd6;
+  line-height: 2.5rem;
+  font-family: 等线;
+}
+.user-title p {
+  font-size: 14px;
+}
+
+.user-title h1 {
+  color: #fff;
+  font: 3.125rem 微软雅黑;
+  text-shadow: 0.125rem 0.0625rem 0.375rem rgba(0, 0, 0, 1);
+}
+
+.user-message {
+  width: 100%;
+  margin-top: 5rem;
+  display: flex;
+  color: #fff;
+  font: 1.25rem 等线;
+  line-height: 1.3;
+}
+
+.user-message-item {
+  box-sizing: border-box;
+  text-align: center;
+  padding: 1.25rem;
+  /* flex: 1; */
+  /* width: 30%; */
+}
+
+.user-message-item img {
+  width: 16.25rem;
+}
+
+.user-message-item h3 {
+  font-size: 2.5rem;
+  line-height: 3.75rem;
+}
+
+.user-message-item p:first-child {}
+
+.username {
+  display: block;
+  line-height: 5rem;
+  color: antiquewhite;
+}
+
+.user-message-item p:nth-child(2) {
+  color: antiquewhite;
+}
+
+.user-message-item p {
+  /* flex: 1; */
+  margin: auto auto;
+  width: 80%;
+}
+
+.footer-text {
+  margin-top: 10rem;
+  color: #fff;
+  font-size: 0.875rem;
+}
